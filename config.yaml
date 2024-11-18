@@ -15,34 +15,6 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Kairrin.net
-  description: "Bienvenue sur mon Blog ! Je vous partage ici des tutoriels et des exercices pour mieux comprendre>
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Kairrin
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
-  disableThemeToggle: false
-
-
-root@Kairrin:~/Kairrin# cat hugo.yaml
-baseURL: "https://Kairrin.net/"
-title: Kairrin.net
-paginate: 5
-theme: PaperMod
-
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-minify:
-  disableXML: true
-  minifyOutput: true
-
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Kairrin.net
   description: "Bienvenue sur mon Blog ! Je vous partage ici des tutoriels et des exercices pour mieux comprendre et aprehender l'informatique"
   keywords: [Blog, Portfolio, PaperMod]
   author: Kairrin
