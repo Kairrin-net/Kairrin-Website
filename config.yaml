@@ -28,14 +28,14 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
-          url: archives
+        - name: Posts
+          url: posts/
           weight: 10
         - name: Rechercher un tutoriel
           url: search/
           weight: 5
-        - name: Catégories
-          url: posts/
+        - name: Tags
+          url: tags/
           weight: 10
         - name: Accès aux exercices
           url: https://github.com/Kairrin-net/Kairrin-Exercices/
