@@ -88,6 +88,13 @@ params:
       title: Accédez aux exercices
       url: "https://github.com/Kairrin-net/"
 
+  buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+
   editPost:
     URL: "https://github.com/Kairrin-net/Kairrin-Website/tree/main/content"
     Text: "Partagez votre idée"
