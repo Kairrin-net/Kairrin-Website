@@ -68,7 +68,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   comments: true
-  images: ["images/cover.svg"]
+  images: ["https://raw.githubusercontent.com/Kairrin-net/Kairrin-Website/a52b148eae0d358baf002c75d79b73073d619ab5/assets/images/cover.svg"]
 
   homeInfoParams:
     Title: "Kairrin.Net"
