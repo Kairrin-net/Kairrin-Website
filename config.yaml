@@ -108,11 +108,6 @@ params:
     apple_touch_icon: "https://raw.githubusercontent.com/Kairrin-net/Kairrin-Website/refs/heads/main/assets/images/apple-touch-icon.png"
     safari_pinned_tab: "https://raw.githubusercontent.com/Kairrin-net/Kairrin-Website/refs/heads/main/assets/images/favicon.ico"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
 markup:
   goldmark:
     renderer:
