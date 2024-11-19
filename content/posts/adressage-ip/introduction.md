@@ -8,7 +8,7 @@ aliases: ["/introduction"]
 tags: ["Adressage-IP"]
 author: ["Kairrin"]
 cover:
-  image: #
+  image: https://raw.githubusercontent.com/Kairrin-net/Kairrin-Website/refs/heads/main/content/posts/adressage-ip/media/introduction.svg
   hiddenInList: false
 ---
 
