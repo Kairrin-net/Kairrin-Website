@@ -50,7 +50,6 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Bienvenue sur Kairrin.net. Notre objectif est de proposer aux débutants des explications claires et détaillées sur les notions de base de l’informatique"
   author: Kairrin
-  # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
   # disableThemeToggle: true 
