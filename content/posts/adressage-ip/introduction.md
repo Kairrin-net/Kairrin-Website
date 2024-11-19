@@ -10,8 +10,8 @@ author: ["Kairrin"]
 cover:
   image: https://raw.githubusercontent.com/Kairrin-net/Kairrin-Website/refs/heads/main/content/posts/adressage-ip/media/introduction.svg
   hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+  hiddenInList: true # hide on list pages and home
+  hiddenInSingle: true # hide on single page
 ---
 
 > - **Ce premier cours, bien que technique, propose une introduction riche en définitions et exemples pratiques. Si vous souhaitez des     éclaircissements supplémentaires, n’hésitez pas à rejoindre notre [communauté](https://discord.gg/MsAScXtavf).**
