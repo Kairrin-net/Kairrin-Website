@@ -28,11 +28,11 @@ languages:
       series: series
     menu:
       main:
-        - name: Posts
+        - name: Catégories
           url: posts/
           weight: 10
-        - name: Rechercher un tutoriel
-          url: search/
+        # - name: Rechercher un tutoriel
+        #   url: search/
           weight: 5
         - name: Tags
           url: tags/
