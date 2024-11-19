@@ -9,7 +9,7 @@ tags: ["Adressage-IP"]
 author: ["Kairrin"]
 cover:
   image: #
-  hiddenInList: true
+  hiddenInList: false
 ---
 
 > - **We'll be using `yml/yaml` format for all examples down below, it is recommend to use `yaml` over `toml` as it is easier to read.**
