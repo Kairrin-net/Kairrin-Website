@@ -34,8 +34,8 @@ languages:
         - name: Rechercher un tutoriel
           url: search/
           weight: 5
-        - name: Tags
-          url: tags/
+        - name: Catégories
+          url: posts/
           weight: 10
         - name: Accès aux exercices
           url: https://github.com/Kairrin-net/Kairrin-Exercices/
