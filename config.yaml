@@ -1,6 +1,4 @@
-# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
-# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://kairrin.net"
+baseURL: "https://www.kairrin.net"
 title: Kairrin.net
 copyright: "© Édité avec ❤️ par [Kairrin](https://github.com/Kairrin-net/)"
 paginate: 5
