@@ -16,7 +16,7 @@ Ce site permet aux débutants de s'approprier les notions de base de l’informa
 
 ## 🖼️ Aperçu
 
-[Ajoute ici une capture d'écran ou une description visuelle du site pour donner un aperçu aux lecteurs.]
+<img width="1108" alt="image" src="https://github.com/user-attachments/assets/2c3b6044-15cd-4440-aedc-6ecd9a2f40fc">
 
 ---
 
