@@ -7,6 +7,7 @@ weight: 1
 aliases: ["/introduction"]
 tags: ["Adressage-IP"]
 author: ["Kairrin"]
+draft: true
 cover:
   image: https://raw.githubusercontent.com/Kairrin-net/Kairrin-Website/refs/heads/main/content/posts/adressage-ip/media/introduction.svg
   hidden: true # hide everywhere but not in structured data
