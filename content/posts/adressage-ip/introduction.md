@@ -34,14 +34,34 @@ En résumé, une adresse IP est un numéro attribué pour pouvoir communiquer av
 
 #### IPv4
 
-Plus largement utilisée.
+Plus largement utilisée, mais de moins en moins d'adresses disponibles.
 
 Longueur de 32 Bits, soit 4 Octets.
 
 Une adresse IPv4 est exprimée en notation décimale, composée de quatre nombres entiers compris entre 0 et 255, séparés par des points (par exemple : 192.168.0.1).
 
-Environ 4,3 Milliards d'adresses (ou 2^{32}) pour les connaisseurs 😎.
+Environ 4,3 Milliards d'adresses (ou 2^32) pour les connaisseurs 😎.
 
+#### IPv6
 
+Crée principalement pour palier à la pénurie d'IPv4.
+
+Longueur de 128 Bits, soit 16 Octets.
+
+Une adresse IPv6 est exprimée en notation hexadécimale, composée de huit groupes de quatre caractères (chiffres et lettres de A à F), séparés par des doubles points (par exemple : 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+Environ 340 Sextillions d'adresses (*on a le temps avant d'être en rupture..*) ou 2^128.
 
 ---
+
+## Les classes d'adresses en IPv4
+
+Chaque adresse IP appartient à une classe, il en existe 5 : A, B, C, D et E. 
+
+| **Classe** | **Plage d'adresses**       | **Bits réservés pour le réseau** | **Nombre d’hôtes**      | **Usage principal**                     |
+|------------|-----------------------------|-----------------------------------|--------------------------|------------------------------------------|
+| A          | 0.0.0.0 à 127.255.255.255  | 8 bits                           | ~16 millions par réseau | Réseaux très larges (grandes entreprises)|
+| B          | 128.0.0.0 à 191.255.255.255| 16 bits                          | ~65 000 par réseau      | Réseaux de taille moyenne               |
+| C          | 192.0.0.0 à 223.255.255.255| 24 bits                          | 254 par réseau          | Petits réseaux (ex. : LAN)              |
+| D          | 224.0.0.0 à 239.255.255.255| Réservée pour le multicast       | Non applicable          | Transmission de données en groupe       |
+| E          | 240.0.0.0 à 255.255.255.255| Réservée pour la recherche       | Non applicable          | Expérimentation                         |
