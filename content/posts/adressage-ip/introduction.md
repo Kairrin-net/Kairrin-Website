@@ -20,7 +20,7 @@ cover:
 
 ---
 
-## Une adresse IP ? Kesako ?
+## 🔎 Une adresse IP ? Kesako ?
 
 > Une adresse IP (Internet Protocol) est un numéro d'identification unique attribué de façon permanente ou provisoire à chaque périphérique faisant partie d'un même réseau informatique utilisant l'Internet Protocol. 
 >
@@ -30,7 +30,7 @@ En résumé, une adresse IP est un numéro attribué pour pouvoir communiquer av
 
 ---
 
-## IPv4, IPv6, quelles différences ? 
+## 🧐 IPv4, IPv6, quelles différences ? 
 
 #### IPv4
 
@@ -54,7 +54,7 @@ Environ 340 Sextillions d'adresses (*on a le temps avant d'être en rupture..*) 
 
 ---
 
-## Les classes d'adresses en IPv4
+## 📚 Les classes d'adresses en IPv4
 
 Chaque adresse IP appartient à une classe, il en existe 5 : A, B, C, D et E. 
 
@@ -70,7 +70,7 @@ Dans les classes A, B et C il existe ce qu'on appelle des réseaux dit "privés"
 
 Au contraire, les adresses IP publiques sont routables et utilisées pour permettre la communication entre différents appareils sur Internet. Contrairement aux adresses IP privées ces adresses sont **uniques**.
 
-## Les masques de sous-réseau
+## 🎭 Les masques de sous-réseau
 
 #### Format Décimal pointé
 
@@ -130,7 +130,7 @@ Il y a toujours deux adresses IPv4 réservées :
 
 - L'adresse de diffusion est une adresse IP qui permet d’envoyer des messages à tous les hôtes d’un même réseau simultanément. 
 
-## Pour aller plus loin
+## 👍 Pour aller plus loin
 
 [Exercices sur l'adressage IPv4 **inetdoc.net**](https://www.inetdoc.net/articles/adressage.ipv4/adressage.ipv4.exercises.html)
 
@@ -141,7 +141,7 @@ Il y a toujours deux adresses IPv4 réservées :
 [Les adresses IP pour les débutants : **IT-Connect.fr**](https://www.it-connect.fr/les-adresses-ip-pour-les-debutants/#III_Adresses_IPv4_et_IPv6)
 
 
-## Sources
+## ℹ️ Sources
 
 [Classe d'adresse IP : **Wikipedia.org**](https://fr.wikipedia.org/wiki/Classe_d%27adresse_IP)
 
