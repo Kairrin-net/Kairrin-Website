@@ -118,12 +118,7 @@ Avec la notation CIDR, le /24 indique le nombre de bits qui sont a "1".
 
 On à vu plus tôt qu'une IPv4 contient 32 Bits, et qu'il y a 4 Octets.
 
-Donc 
-                     1                   2                   3 
- 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ 
-|         Partie Réseau (24 bits)          |  Partie Hôte (8 bits) |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Donc : 1111 1111 . 1111 1111 . 1111 1111 . 0000 0000
 
 On voit donc qu'il y a 8 bits qui sont a "0", donc le réseau 172.16.0.0/24 dispose de 2^8 - 2 adresses IP utilisables, soit 254 adresses IP.
 
@@ -143,5 +138,15 @@ Il y a toujours deux adresses IPv4 réservées :
 
 [Les classes d'adresses : **inetdoc.net**](https://www.inetdoc.net/articles/adressage.ipv4/adressage.ipv4.class.html)
 
+[Les adresses IP pour les débutants : **IT-Connect.fr**](https://www.it-connect.fr/les-adresses-ip-pour-les-debutants/#III_Adresses_IPv4_et_IPv6)
 
+
+## Sources
+
+[Classe d'adresse IP : **Wikipedia.org**](https://fr.wikipedia.org/wiki/Classe_d%27adresse_IP)
+
+[Adresse IP : **Wikipedia.org**](https://fr.wikipedia.org/wiki/Adresse_IP)
+
+
+**Merci à tous d'avoir lu cet article, à bientôt !**
 
