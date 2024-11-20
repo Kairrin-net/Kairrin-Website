@@ -60,8 +60,30 @@ Chaque adresse IP appartient à une classe, il en existe 5 : A, B, C, D et E.
 
 | **Classe** | **Plage d'adresses**       | **Bits réservés pour le réseau** | **Nombre d’hôtes**      | **Usage principal**                     |
 |------------|-----------------------------|-----------------------------------|--------------------------|------------------------------------------|
-| A          | 0.0.0.0 à 127.255.255.255  | 8 bits                           | ~16 millions par réseau | Réseaux très larges (grandes entreprises)|
+| A          | 0.0.0.0 à 126.255.255.255  | 8 bits                           | ~16 millions par réseau | Réseaux très larges (grandes entreprises)|
 | B          | 128.0.0.0 à 191.255.255.255| 16 bits                          | ~65 000 par réseau      | Réseaux de taille moyenne               |
 | C          | 192.0.0.0 à 223.255.255.255| 24 bits                          | 254 par réseau          | Petits réseaux (ex. : LAN)              |
 | D          | 224.0.0.0 à 239.255.255.255| Réservée pour le multicast       | Non applicable          | Transmission de données en groupe       |
 | E          | 240.0.0.0 à 255.255.255.255| Réservée pour la recherche       | Non applicable          | Expérimentation                         |
+
+Dans les classes A, B et C il existe ce qu'on appelle des réseaux dit "privés", qui sont réservés à un réseau local (**Exemple : Le réseau interne de votre entreprise, chez vous**). Ces adresses privées ne sont pas utilisables sur internet, car elles ne sont pas routables.
+
+Au contraire, les adresses IP publiques sont routables et utilisées pour permettre la communication entre différents appareils sur Internet. Contrairement aux adresses IP privées ces adresses sont **uniques**.
+
+## Les masques de sous-réseau
+
+#### Format Décimal pointé
+
+Le masque de sous-réseau est représenté par quatre nombres décimaux séparés par des points.
+
+Exemple : 255.255.255.0 
+
+Gardez en tête que chaque masque à son équivalent en CIDR.
+
+#### Format CIDR (Classless InterDomain Routing )
+
+Le masque de sous-réseau est exprimé par le nombre de bits utilisés pour la partie réseau.
+
+Exemple : 255.255.255.0 devient /24, ce qui facilite la compréhension.
+
+Le format CIDR permet de limiter le gaspillage d'adresse et de retarder la pénurie d'adresse IPv4.
