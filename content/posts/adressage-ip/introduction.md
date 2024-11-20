@@ -20,10 +20,10 @@ cover:
 
 ---
 
-## 🚨 Prérequis
+## Une adresse IP ? Kesako ?
 
-1. Un ordinateur
-
-2. Du temps.
+> Une adresse IP (Internet Protocol) est un numéro d'identification unique attribué de façon permanente ou provisoire à chaque périphérique faisant partie d'un même réseau informatique utilisant l'Internet Protocol. 
+>
+> — <cite>[Wikipedia](https://fr.wikipedia.org/wiki/Adresse_IP)</cite>
 
 ---
