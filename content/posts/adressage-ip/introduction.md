@@ -84,6 +84,64 @@ Gardez en tête que chaque masque à son équivalent en CIDR.
 
 Le masque de sous-réseau est exprimé par le nombre de bits utilisés pour la partie réseau.
 
-Exemple : 255.255.255.0 devient /24, ce qui facilite la compréhension.
+La notation CIDR se présente sous la forme suivante : **/nombre_de_bits_utilisés_pour_la_partie_réseau.**
+
+Par exemple : 
+
+| **Masque Décimal**      | **Format CIDR** |
+|--------------------------|-----------------|
+| 255.0.0.0               | /8              |
+| 255.255.0.0             | /16             |
+| 255.255.255.0           | /24             |
+| 255.255.255.128         | /25             |
+| 255.255.255.192         | /26             |
+| 255.255.255.224         | /27             |
+| 255.255.255.240         | /28             |
+| 255.255.255.248         | /29             |
+| 255.255.255.252         | /30             |
+| 255.255.255.254         | /31             |
+| 255.255.255.255         | /32             |
 
 Le format CIDR permet de limiter le gaspillage d'adresse et de retarder la pénurie d'adresse IPv4.
+
+#### Pour mieux comprendre
+
+Le masque détermine la partie **hôte** de la partie **réseau** dans le découpage de l'IPv4.
+
+Exemple : 
+
+Le réseau 172.16.0.0/24.
+
+Son masque au format décimal est : 255.255.255.0 
+
+Avec la notation CIDR, le /24 indique le nombre de bits qui sont a "1".
+
+On à vu plus tôt qu'une IPv4 contient 32 Bits, et qu'il y a 4 Octets.
+
+Donc 
+                     1                   2                   3 
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ 
+|         Partie Réseau (24 bits)          |  Partie Hôte (8 bits) |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+On voit donc qu'il y a 8 bits qui sont a "0", donc le réseau 172.16.0.0/24 dispose de 2^8 - 2 adresses IP utilisables, soit 254 adresses IP.
+
+**Pourquoi on a fait -2 ?**
+
+Il y a toujours deux adresses IPv4 réservées :
+
+- L'adresse de réseau (172.16.0.0 dans l'exemple précédent)
+
+- L'adresse de diffusion est une adresse IP qui permet d’envoyer des messages à tous les hôtes d’un même réseau simultanément. 
+
+## Pour aller plus loin
+
+[Exercices sur l'adressage IPv4 **inetdoc.net**](https://www.inetdoc.net/articles/adressage.ipv4/adressage.ipv4.exercises.html)
+
+[Exercices d’adressage IP **ofppt.info**](https://ofppt.info/exercices-dadressage-ip/)
+
+[Les classes d'adresses : **inetdoc.net**](https://www.inetdoc.net/articles/adressage.ipv4/adressage.ipv4.class.html)
+
+
+
