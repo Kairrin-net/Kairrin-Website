@@ -52,7 +52,7 @@ Il existe plusieurs adresses, qui ont un usage bien particulier, les voici :
 
 - **169.254.0.0/16** [APIPA](https://forum.huawei.com/enterprise/fr/adresse-apipa-qu-est-ce-que-c-est/thread/667502567447478272-667481000260808704) : Ce réseau est automatiquement paramétré sur votre poste quand la rêquete vers le serveur DHCP à échoué.
 
-- **127.0.0.1** [LOOPBACK](https://fr.wikipedia.org/wiki/Loopback) : L'adresse de loopback représente la machine, elle permet aussi de se connecter à un serveur web auto-hébergé sur le poste. 
+- **127.0.0.1** [LOOPBACK](https://fr.wikipedia.org/wiki/Loopback) : L'adresse de loopback représente la machine, elle permet aussi de se connecter à un serveur web auto-hébergé sur le poste, par exemple avec MAMP.
 
 ## 👍 Pour aller plus loin
 
