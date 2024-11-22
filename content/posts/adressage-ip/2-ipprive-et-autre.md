@@ -16,15 +16,15 @@ cover:
   hiddenInSingle: false # hide on single page
 ---
 
-## Ce qu'on à vu précédemment
+## 🤗 Ce qu'on à vu précédemment
 
 > - Dans la première partie du cours, nous avons abordé les différentes adresses IP, notamment les privées et les publiques. Dans cette partie, je vais vous expliquer l’intérêt des adresses IP privées ainsi que celui de certaines adresses IP un peu particulières.
 
 ---
 
-## Les IP privées
+## 🧑‍💻 Les IP privées
 
-#### Utilité
+#### 🧐 Utilité
 
 Dans un [LAN](https://www.cloudflare.com/fr-fr/learning/network-layer/what-is-a-lan/), les adresses IP privées occupent une place essentielle dans toute infrastructure. Sans ces adresses, vous ne pourriez pas communiquer avec votre serveur de fichiers ou même accéder au reste d’Internet (le [WAN](https://www.cloudflare.com/fr-fr/learning/network-layer/what-is-a-wan/)).
 
