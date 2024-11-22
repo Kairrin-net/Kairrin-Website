@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "1 : Introduction"
 summary: Dans ce premier cours, je vous propose de découvrir ce qu’est l'adressage IP, ses usages etc.
 date: 2024-11-19
 series: ["Adressage-IP"]
